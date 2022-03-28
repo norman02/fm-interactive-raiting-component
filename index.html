@@ -5,27 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>interactive-rating-component</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <main>
       <img src="./images/icon-star.svg" alt="" />
-      <h1>How did we do?</h1>
-      <p>
+      <h1 class="text text--md text--bold">How did we do?</h1>
+      <p class="text text--sm">
         Please let us know how we did with your support request. All feedback is
         appreciated to help us improve our offering!
       </p>
       <form action="submit">
-        <input type="radio" name="rating" id="1">
-        <label for="1">1</label>
-        <input type="radio" name="rating" id="2">
-        <label for="2">2</label>
-        <input type="radio" name="rating" id="3">
-        <label for="3">3</label>
-        <input type="radio" name="rating" id="4">
-        <label for="4">4</label>
-        <input type="radio" name="rating" id="5">
-        <label for="5">5</label>
-        <button type="submit">submit</button>
+        <input type="radio" name="rating" id="1" />
+        <label class="text text--sm text--bold" for="1">1</label>
+        <input type="radio" name="rating" id="2" />
+        <label class="text text--sm text--bold" for="2">2</label>
+        <input type="radio" name="rating" id="3" />
+        <label class="text text--sm text--bold" for="3">3</label>
+        <input type="radio" name="rating" id="4" />
+        <label class="text text--sm text--bold" for="4">4</label>
+        <input type="radio" name="rating" id="5" />
+        <label class="text text--sm text--bold" for="5">5</label>
+        <button class="text text--sm text--bold text--cap" type="submit">Submit</button>
       </form>
     </main>
   </body>

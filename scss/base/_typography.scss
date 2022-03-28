@@ -1,0 +1,28 @@
+/*------------------------------\
+    BASE - Typography
+\------------------------------*/
+.text {
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+
+  &--bold {
+    font-weight: 700;
+  }
+
+  &--cap {
+    text-transform: uppercase;
+  }
+
+  &--md {
+    font-size: rem(24);
+    line-height: rem(29);
+  }
+
+  &--sm {
+    font-size: rem(14);
+  }
+}
+
+p {
+  line-height: rem(22);
+}
