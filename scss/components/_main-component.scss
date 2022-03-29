@@ -1,0 +1,39 @@
+/*------------------------------\
+    COMPONENTS - main component
+\------------------------------*/
+
+.main-component {
+    max-width: rem(327);
+    background: transparent
+      radial-gradient(
+        closest-side at 50% 0%,
+        hsla(215, 20%, 17%, 1) 0%,
+        hsla(216, 24%, 12%, 1) 100%
+      )
+      0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    color: $primary-text-color;
+    padding: rem(24);
+    padding-bottom: rem(32);
+  
+    .star {
+      background: $star-background 0% 0% no-repeat padding-box;
+      padding: rem(12.33);
+      border-radius: 50%;
+      margin-bottom: rem(16);
+    }
+  
+    p {
+      padding-top: rem(16);
+      padding-bottom: rem(40);
+      color: $secondary-text-color;
+    }
+  
+    form {
+      text-align: center;
+    }
+  
+    button {
+      margin-top: rem(24);
+    }
+  }

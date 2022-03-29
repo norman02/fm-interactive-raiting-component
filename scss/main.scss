@@ -1,14 +1,14 @@
-@import 'abstracts/functions';
+@import "abstracts/functions";
+@import "abstracts/variables";
 
 @import "base/reset";
-@import 'base/typography';
+@import "base/typography";
+
+@import "components/main-container";
+@import "components/main-component";
 
 /*------------------------------\
     PRODUCTION / TESTING
 \------------------------------*/
-
-body {
-  padding: 10px;
-}
 
 
