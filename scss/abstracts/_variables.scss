@@ -1,5 +1,12 @@
 //Color Pallette
 $very-dark-blue: hsla(216, 12%, 8%, 1);
+$dark-blue: hsla(213, 19%, 18%, 1);
+$light-grey: hsla(217, 12%, 63%, 1);
+
+//Text Colors
+$primary-text-color: white;
+$secondary-text-color: $light-grey;
 
 //Background Colors
 $bg-color: $very-dark-blue;
+$star-background: $dark-blue;
