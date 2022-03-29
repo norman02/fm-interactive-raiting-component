@@ -114,6 +114,20 @@ p {
   line-height: 1.375rem;
 }
 
+/*------------------------------\
+    COMPONTENTS - Buttons
+\------------------------------*/
+.btn {
+  background-color: #fb7413;
+  border: none;
+  border-radius: 1.40625rem;
+  color: white;
+  padding-bottom: 1.0625rem;
+  padding-top: 0.875rem;
+  outline: none;
+  width: 100%;
+}
+
 .main-container {
   display: flex;
   align-items: center;
@@ -157,4 +171,49 @@ p {
 /*------------------------------\
     PRODUCTION / TESTING
 \------------------------------*/
+.rating {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+}
+
+.rating li {
+  float: left;
+  width: 42px;
+  height: 42px;
+  position: relative;
+}
+
+.rating label,
+.rating input {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.rating input[type="radio"] {
+  opacity: 0.01;
+  z-index: 100;
+}
+
+.rating input[type="radio"]:checked + label,
+.Checked + label {
+  background: yellow;
+}
+
+.rating label {
+  padding-top: 5.29px;
+  border: 1px solid #CCC;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 90;
+}
+
+.rating label:hover {
+  background: #DDD;
+}
 /*# sourceMappingURL=main.css.map */
