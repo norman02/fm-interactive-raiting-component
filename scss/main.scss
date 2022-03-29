@@ -4,6 +4,7 @@
 @import "base/reset";
 @import "base/typography";
 
+@import "components/buttons";
 @import "components/main-container";
 @import "components/main-component";
 
@@ -11,4 +12,7 @@
     PRODUCTION / TESTING
 \------------------------------*/
 
+.form {
+    border: 1px solid red;
+}
 
