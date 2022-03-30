@@ -169,7 +169,7 @@ p {
 }
 
 /*------------------------------\
-    PRODUCTION / TESTING
+    COMPONENTS - rating
 \------------------------------*/
 .rating {
   display: flex;
@@ -202,18 +202,24 @@ p {
 
 .rating input[type="radio"]:checked + label,
 .Checked + label {
-  background: yellow;
+  background: #7c8798;
 }
 
 .rating label {
   padding-top: 5.29px;
-  border: 1px solid #CCC;
+  background-color: #252d37;
   border-radius: 50%;
   cursor: pointer;
+  color: #959eac;
   z-index: 90;
 }
 
 .rating label:hover {
-  background: #DDD;
+  background: #fb7413;
+  color: white;
 }
+
+/*------------------------------\
+    PRODUCTION / TESTING
+\------------------------------*/
 /*# sourceMappingURL=main.css.map */
