@@ -1,7 +1,9 @@
 //Color Pallette
+$orange: hsla(25, 97%, 53%, 1);
 $very-dark-blue: hsla(216, 12%, 8%, 1);
 $dark-blue: hsla(213, 19%, 18%, 1);
 $light-grey: hsla(217, 12%, 63%, 1);
+$gray: hsla(216, 12%, 54%, 1);
 
 //Text Colors
 $primary-text-color: white;
@@ -9,4 +11,10 @@ $secondary-text-color: $light-grey;
 
 //Background Colors
 $bg-color: $very-dark-blue;
+$btn-bg-clr: $orange;
 $star-background: $dark-blue;
+$rating-bg-clr: $dark-blue;
+$rating-hover-clr: $orange;
+$rating-select-clr: $gray;
+$btn-hover-clr: white;
+$btn-hover-text: $orange;

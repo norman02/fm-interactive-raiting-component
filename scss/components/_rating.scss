@@ -1,0 +1,51 @@
+/*------------------------------\
+    COMPONENTS - rating
+\------------------------------*/
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+}
+
+.rating li {
+  float: left;
+  width: 42px;
+  height: 42px;
+  position: relative;
+}
+
+.rating label,
+.rating input {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.rating input[type="radio"] {
+  opacity: 0.01;
+  z-index: 100;
+}
+
+.rating input[type="radio"]:checked + label,
+.Checked + label {
+  background: $rating-select-clr;
+}
+
+.rating label {
+  padding-top: 5.29px;
+  background-color: $rating-bg-clr;
+  border-radius: 50%;
+  cursor: pointer;
+  color: $secondary-text-color;
+  z-index: 90;
+}
+
+.rating label:hover {
+  background: $rating-hover-clr;
+  color: $primary-text-color;
+}

@@ -1,0 +1,19 @@
+/*------------------------------\
+    COMPONTENTS - Buttons
+\------------------------------*/
+
+.btn {
+  background-color: $btn-bg-clr;
+  border: none;
+  border-radius: rem(22.5);
+  color: $primary-text-color;
+  padding-bottom: rem(17);
+  padding-top: rem(14);
+  outline: none;
+  width: 100%;
+
+  &:hover {
+    background-color: $btn-hover-clr;
+    color: $btn-hover-text;
+  }
+}
