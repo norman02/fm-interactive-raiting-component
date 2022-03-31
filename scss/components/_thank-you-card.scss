@@ -1,0 +1,26 @@
+/*------------------------------\
+    COMPONENTS - thank you card
+\------------------------------*/
+
+.thanks {
+  padding: rem(53);
+  text-align: center;
+
+  img {
+    margin: auto;
+    margin-top: rem(34.7);
+    margin-bottom: rem(25);
+  }
+
+  .selected {
+    background: $rating-bg-clr;
+    border-radius: 22.5px;
+    color: $rating-txt-clr;
+    display: inline;
+    padding: rem(1) rem(13) rem(17) rem(13);
+  }
+
+  h1 {
+    margin-top: rem(41);
+  }
+}

@@ -225,6 +225,32 @@ p {
 }
 
 /*------------------------------\
+    COMPONENTS - thank you card
+\------------------------------*/
+.thanks {
+  padding: 3.3125rem;
+  text-align: center;
+}
+
+.thanks img {
+  margin: auto;
+  margin-top: 2.16875rem;
+  margin-bottom: 1.5625rem;
+}
+
+.thanks .selected {
+  background: #252d37;
+  border-radius: 22.5px;
+  color: #fb7413;
+  display: inline;
+  padding: 0.0625rem 0.8125rem 1.0625rem 0.8125rem;
+}
+
+.thanks h1 {
+  margin-top: 2.5625rem;
+}
+
+/*------------------------------\
     PRODUCTION / TESTING
 \------------------------------*/
 /*# sourceMappingURL=main.css.map */
